@@ -34,10 +34,56 @@
          url('../fonts/manrope-v4-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/manrope-v4-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  html {
-       box-sizing: border-box;
+html {
+  box-sizing: border-box;
   }
-  .nav_item {
-       font-family: Manrope;
-
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+     font-family: Manrope;
+     font-family: Manrope;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 26px;
+     color: #343434;
+}
+.header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+.nav_item {
+     font-family: Manrope;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 26px;
+     color: #343434;
+     display: flex;
+     flex-wrap: wrap;
   }
+.wrapper {
+     max-width: 1060px;
+     margin: 0 auto;
+}
+.header_wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 50px;
+}
+.nav_items {
+     margin-right: 40px;
+}
+.nav_items:last-child {
+     margin-right: 0;
+}
+.header_link {
+     text-decoration: none;
+     color: #343434;
+}
+.header_link:hover, .header_link:focus, .header_link:active {
+     opacity: 0.75;
+}
