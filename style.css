@@ -58,7 +58,7 @@ body {
      font-family: Manrope;
      font-weight: 500;
      font-size: 22px;
-     line-height: 26px;
+     line-height: 23px;
      color: #343434;
      display: flex;
      flex-wrap: wrap;
@@ -72,13 +72,13 @@ body {
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-between;
-     padding-top: 50px;
+     padding-top: 20px;
 }
 .nav_items {
      margin-right: 40px;
 }
 .nav_items:last-child {
-     margin-right: 0;
+     margin-right: 0px;
 }
 .header_link {
      text-decoration: none;
